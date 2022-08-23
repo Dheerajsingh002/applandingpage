@@ -20,6 +20,35 @@
 .featured .row .col-md-9 p{
     font-size: 30px;
 }
+p{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+h1:hover{
+    color: red;
+}
+@keyframes example{
+    0%{
+        color: pink;
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: blueviolet;
+    }
+    75%{
+        color: antiquewhite;
+    }
+    100%{
+        color: orange;
+
+    }
+}
+.featured .row .col-md-9 p:hover{
+    color: red;
+}
 .featured .btn-default{
     font-weight: bold;
     color: white;
