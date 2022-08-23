@@ -99,7 +99,7 @@ h1:hover{
         }
 
 }
-@media (min-width:480px){
+@media (min-width:368px){
     .jumbotron{
         height: 710px;
         margin: 0;
